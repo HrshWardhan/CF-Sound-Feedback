@@ -48,7 +48,6 @@ def error():
 print("Script started...")
 while True:
   try:
-    response = ""
     response = requests.get(url, params=parameters, timeout=1)
     if lasterr:
         print("Connection Successful")
